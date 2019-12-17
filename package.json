@@ -1,0 +1,58 @@
+{
+  "name": "homebridge-zigbee",
+  "version": "1.3.0",
+  "description": "ZigBee Platform plugin for HomeBridge",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "eslint .",
+    "permit-join": "node scripts/permit-join.js"
+  },
+  "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsmepetrov/homebridge-zigbee.git#77eee08"
+  },
+  "keywords": [
+    "homebridge-plugin",
+    "homebridge-zigbee",
+    "homebridge",
+    "homekit",
+    "zigbee",
+    "ikea",
+    "tradfri",
+    "xiaomi",
+    "aqara",
+    "philips",
+    "hue"
+  ],
+  "author": {
+    "name": "Anton Petrov",
+    "email": "petrov.aap@gmail.com",
+    "url": "https://github.com/itsmepetrov"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itsmepetrov/homebridge-zigbee/issues"
+  },
+  "homepage": "https://github.com/itsmepetrov/homebridge-zigbee#readme",
+  "dependencies": {
+    "async-retry": "^1.2.1",
+    "fakegato-history": "^0.5.2",
+    "homebridge-lib": "^2.0.0",
+    "lodash.get": "^4.4.2",
+    "nanoid": "^2.0.0",
+    "require-dir": "^1.0.0",
+    "serialport": "^6.2.2",
+    "zcl-id": "itsmepetrov/zcl-id#d144b89a2b471266fb01ede9cce0f64afdbef825",
+    "zigbee-shepherd": "itsmepetrov/zigbee-shepherd#1e86104f33b5e066f7b5c9fe1b65565034b82d72"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0"
+  }
+}
